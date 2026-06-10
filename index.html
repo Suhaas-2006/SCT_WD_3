@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Quiz Master Pro</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+
+<div class="particles"></div>
+
+<div class="theme-switch">
+    <button id="themeBtn">🌙</button>
+</div>
+
+<div class="start-screen" id="startScreen">
+
+    <h1>🎯 Quiz Master Pro</h1>
+
+    <div class="selectors">
+
+        <select id="category">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">JavaScript</option>
+        </select>
+
+        <select id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+
+    </div>
+
+    <button id="startBtn">Start Quiz</button>
+
+</div>
+
+<div class="quiz-container hidden" id="quizContainer">
+
+    <div class="top-bar">
+
+        <div>
+            Question
+            <span id="currentQuestion">1</span> /
+            <span id="totalQuestions">10</span>
+        </div>
+
+        <div class="timer-circle">
+            <span id="timer">15</span>
+        </div>
+
+    </div>
+
+    <div class="progress">
+        <div id="progressBar"></div>
+    </div>
+
+    <h2 id="question"></h2>
+
+    <div id="options"></div>
+
+    <div id="explanation"></div>
+
+    <button id="nextBtn">Next Question ➜</button>
+
+</div>
+
+<div class="result-screen hidden" id="resultScreen">
+
+    <h1>🏆 Quiz Completed</h1>
+
+    <h2 id="scoreText"></h2>
+
+    <h3 id="performance"></h3>
+
+    <div class="stats">
+        <p>Correct Answers: <span id="correctAns"></span></p>
+        <p>Percentage: <span id="percentage"></span></p>
+        <p>High Score: <span id="highScore"></span></p>
+    </div>
+
+    <button onclick="restartQuiz()">
+        Play Again
+    </button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
