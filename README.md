@@ -6,7 +6,7 @@ A modern and interactive quiz game application developed as part of my Web Devel
 
 View the live project here:
 
-**Live Demo:** https://your-live-demo-link.com
+**Live Demo:**  https://suhaas-2006.github.io/SCT_WD_3/
 
 ## 📂 Repository
 
