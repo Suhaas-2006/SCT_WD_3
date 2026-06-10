@@ -19,7 +19,7 @@ Explore the source code:
 ## 🚀 Features
 
 * Interactive Multiple Choice Questions
-* 20+ HTML, CSS, and JavaScript Questions
+* 10 HTML, CSS, and JavaScript Questions
 * Question Shuffle Functionality
 * Countdown Timer for Each Question
 * Progress Bar Tracking
