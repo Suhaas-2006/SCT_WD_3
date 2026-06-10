@@ -12,7 +12,7 @@ View the live project here:
 
 Explore the source code:
 
-**GitHub Repository:** https://github.com/your-username/quiz-master-pro
+**GitHub Repository:** https://github.com/Suhaas-2006/SCT_WD_3
 
 ---
 
@@ -147,9 +147,9 @@ Through this project, I gained hands-on experience in:
 
 Web Development Intern - SkillCraft Technology
 
-**GitHub:** https://github.com/your-username
+**GitHub:** https://github.com/Suhaas-2006/SCT_WD_3
 
-**LinkedIn:** https://linkedin.com/in/your-profile
+**LinkedIn:** https://www.linkedin.com/in/sai-suhaas-nadakudity-a15992339/
 
 ---
 
